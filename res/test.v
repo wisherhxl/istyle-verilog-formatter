@@ -2,8 +2,7 @@ module fifo#(parameter D_SIZE = 8,
            parameter A_SIZE = 4,
            parameter W_SIZE = 8,
            parameter R_SIZE = 8
-       )
-       (
+       )(
            input W_CLK, // Writing
            input W_INC,
            input W_RST_N,
